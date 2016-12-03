@@ -124,13 +124,13 @@ private:
     
     int distortionMode[2] = {0, 0};
     
-    float delayTimeSeconds[2] = {0.5, 0.5};
-    float readGains[2] = {0.667, 0.667};
-    float lowPassFrequencies[2] = {1000.0, 1000.0};
-    float preGains[2] = {1.0, 1.0};
-    float distortionG[2] = {1.0, 1.0};
-    float distortionGRecip[2] = {1.0, 1.0};
-    float bypassGains[2] = {1.0, 1.0};
+    float delayTimeSeconds[2] = {0.5f, 0.5f};
+    float readGains[2] = {0.667f, 0.667f};
+    float lowPassFrequencies[2] = {1000.0f, 1000.0f};
+    float preGains[2] = {1.0f, 1.0f};
+    float distortionG[2] = {1.0f, 1.0f};
+    float distortionGRecip[2] = {1.0f, 1.0f};
+    float bypassGains[2] = {1.0f, 1.0f};
     
     // Cross-Overs
     bool crossOversOn[2] = {false, false};

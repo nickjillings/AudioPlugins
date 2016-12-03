@@ -9,6 +9,9 @@
 #ifndef __MultibandCompressor__IIR_LR4__
 #define __MultibandCompressor__IIR_LR4__
 
+#ifdef _WIN32
+#define _USE_MATH_DEFINES
+#endif
 #include <math.h>
 
 class IIR_LR4_Coeff;
