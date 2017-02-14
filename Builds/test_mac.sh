@@ -22,4 +22,4 @@ xcodebuild -configuration Release > /dev/null
 
 echo "Done"
 
-cd..
+cd ..
