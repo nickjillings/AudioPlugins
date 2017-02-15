@@ -66,7 +66,7 @@
         <MODULEPATH id="juce_audio_plugin_client" path="..\..\..\..\JUCE\modules"/>
         <MODULEPATH id="juce_audio_formats" path="..\..\..\..\JUCE\modules"/>
         <MODULEPATH id="juce_audio_devices" path="..\..\..\..\JUCE\modules"/>
-        <MODULEPATH id="juce_audio_basics" path="..\..\..\..\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="..\..\JUCE\modules"/>
       </MODULEPATHS>
     </VS2015>
   </EXPORTFORMATS>
