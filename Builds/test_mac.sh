@@ -10,7 +10,7 @@ echo "Compile JUCE"
 git clone --depth 1 https://github.com/julianstorer/JUCE
 cd ./JUCE/extras/Projucer/Builds/MacOSX/
 xcodebuild -configuration Release > /dev/null
-cp ./build/Release/Projucer.app ~/test/
+mv ./build/Release/Projucer.app ~/test/
 cd ~/test/
 
 echo "Update Projects"
