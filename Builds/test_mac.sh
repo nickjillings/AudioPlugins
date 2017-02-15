@@ -15,9 +15,12 @@ cd ~/test/
 
 echo "Update Projects"
 ./Projucer.app/Contents/MacOS/Projucer --resave ./AudioPlugins/Overdrive/Overdrive.jucer > /dev/null
+./Projucer.app/Contents/MacOS/Projucer --resave ./AudioPlugins/DelayLine/DelayLine.jucer > /dev/null
 
 echo "Build Plugin"
 cd ./AudioPlugins/Overdrive/Builds/MacOSX/
+xcodebuild -configuration Release > /dev/null
+cd ./AudioPlugins/DelayLine/Builds/MacOSX/
 xcodebuild -configuration Release > /dev/null
 
 echo "Done"
